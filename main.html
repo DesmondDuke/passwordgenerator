@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>This site randomly generates passwords.</h2>
+        <div class="tenor-gif-embed" data-postid="6128815387503134640" data-share-method="host" data-aspect-ratio="1.66" data-width="40%"><a href="https://tenor.com/view/tc-gif-6128815387503134640">Tc GIF</a>from <a href="https://tenor.com/search/tc-gifs">Tc GIFs</a></div>
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div>
+            <button id="generate">Generate Password</button>
+            <h3 id="output"></h3>
+        </div>
+        <h3>This site is made to ensure safe and secure passwords in an increasingly unsafe digital age by creating
+            truly random passwords so passwords cannot be guessed and can be changed an infinite number of times.
+        </h3>
+        <script>
+            let generate = document.getElementById("generate")
+            let result = document.getElementById("output")
+            generate.addEventListener("click", function() {
+                const password = []
+                for (i = 0; i < 8; i++) {
+                    number1 = Math.floor(Math.random() * 2)
+                    if (number1 === 0) {
+                        number0 = Math.floor(Math.random() * 10)
+                        if (number0 === 0) {
+                            password.push("0");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 1) {
+                            password.push("1");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 2) {
+                            password.push("2");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 3) {
+                            password.push("3");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 4) {
+                            password.push("4");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 5) {
+                            password.push("5");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 6) {
+                            password.push("6");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 7) {
+                            password.push("7");
+                            result.innerHTML = password.join("");
+                        } else if (number0 === 8) {
+                            password.push("8");
+                            result.innerHTML = password.join("");
+                        } else {
+                            password.push("9");
+                            result.innerHTML = password.join("");
+                        }
+                    } else {
+                        number2 = Math.floor(Math.random() * 26)
+                        if (number2 === 0) {
+                            password.push("a");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 1) {
+                            password.push("b");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 2) {
+                            password.push("c");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 3) {
+                            password.push("d");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 4) {
+                            password.push("e");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 5) {
+                            password.push("f");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 6) {
+                            password.push("g");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 7) {
+                            password.push("h");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 8) {
+                            password.push("i");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 9) {
+                            password.push("j");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 10) {
+                            password.push("k");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 11) {
+                            password.push("l");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 12) {
+                            password.push("m");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 13) {
+                            password.push("n");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 14) {
+                            password.push("o");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 15) {
+                            password.push("p");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 16) {
+                            password.push("q");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 17) {
+                            password.push("r");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 18) {
+                            password.push("s");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 19) {
+                            password.push("t");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 20) {
+                            password.push("u");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 21) {
+                            password.push("v");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 22) {
+                            password.push("w");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 23) {
+                            password.push("x");
+                            result.innerHTML = password.join("");
+                        } else if (number2 === 24) {
+                            password.push("y");
+                            result.innerHTML = password.join("");
+                        } else {
+                            password.push("z");
+                            result.innerHTML = password.join("");
+                        }
+                    }
+                }
+            })
+        </script>
+    </body>
+
+</html>
